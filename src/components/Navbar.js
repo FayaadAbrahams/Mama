@@ -1,4 +1,4 @@
-import "../styles/home.css";
+import "../styles/navbar.css";
 import heartIcon from "../assets/heart.svg";
 import cartIcon from "../assets/cart.svg";
 import logo from "../assets/placeholder.svg";
@@ -18,20 +18,23 @@ function NavBar() {
       }}
     >
       <input className="logo" type="image" src={logo} alt="Logo" />
-      <ul>
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li>
-          <a href="/">Collaboration</a>
-        </li>
-        <li>
-          <a href="/">Gallery</a>
-        </li>
-        <li>
-          <a href="/">Blog</a>
-        </li>
-      </ul>
+      <div className="links-headings">
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/">Collaboration</a>
+          </li>
+          <li>
+            <a href="/">Gallery</a>
+          </li>
+          <li>
+            <a href="/">Blog</a>
+          </li>
+        </ul>
+      </div>
+
       <div className="btn-container-home">
         <div className="search-container">
           <input
